@@ -39,17 +39,17 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="aqb-6U-q68" kind="relationship" relationship="rootViewController" id="5tK-mV-xAS"/>
+                        <segue destination="y3F-xI-9su" kind="relationship" relationship="rootViewController" id="4Jc-dq-gV9"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k2w-lS-QR4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-848" y="618"/>
         </scene>
-        <!--Main View Controller-->
+        <!--View Controller-->
         <scene sceneID="GxF-q9-fvZ">
             <objects>
-                <viewController id="aqb-6U-q68" customClass="PXMainViewController" sceneMemberID="viewController">
+                <viewController id="aqb-6U-q68" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g1w-TV-TmJ"/>
                         <viewControllerLayoutGuide type="bottom" id="XZM-zj-oYm"/>
@@ -140,7 +140,27 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rpY-b9-7FL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-848" y="1337"/>
+            <point key="canvasLocation" x="-1258" y="1337"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="AaR-gq-Z5J">
+            <objects>
+                <viewController id="y3F-xI-9su" customClass="PXMainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1r9-Jj-fpq"/>
+                        <viewControllerLayoutGuide type="bottom" id="CIO-HG-O3d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="feT-Ct-M3v">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8vg-XS-DJb"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nyN-Qn-38n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-848" y="1344"/>
         </scene>
         <!--我的-->
         <scene sceneID="ezG-6E-rF5">
