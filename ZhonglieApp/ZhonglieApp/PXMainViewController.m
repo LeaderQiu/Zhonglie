@@ -8,7 +8,9 @@
 
 #import "PXMainViewController.h"
 
-@interface PXMainViewController () <UITableViewDelegate>
+@interface PXMainViewController () <UITableViewDelegate,UITableViewDataSource>
+@property (strong, nonatomic) IBOutlet UITableView *ZhiweiTableView;
+
 
 @end
 
@@ -21,12 +23,15 @@
     
     self.navigationController.tabBarItem = [[UITabBarItem alloc] initWithTitle:nil image: [UIImage imageNamed:@"home"]selectedImage:[UIImage imageNamed:@"home-hover"]];
     
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+    
     
 }
+
+#pragma mark - TableView的数据源方法
+//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    self.tableView.backgroundColor = [UIColor yellowColor];
+//}
 
 
 
