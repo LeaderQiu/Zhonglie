@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PXMainTableViewCell : UITableViewCell
+@interface PXMainTableViewCell : UITableViewCell<UITableViewDataSource,UITableViewDelegate>
+@property (strong, nonatomic) IBOutlet UIView *MainTableViewCell;
+
+
 
 @end

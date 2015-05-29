@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PXMainTableViewCell.h"
 
 @interface PXMainViewController : UIViewController
 
